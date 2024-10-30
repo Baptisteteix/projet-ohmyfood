@@ -1,0 +1,23 @@
+.home {
+    .home__title {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 1em;
+    }
+  
+    .home__intro {
+      margin: 1em 0;
+      text-align: center;
+    }
+  
+    .restaurant-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1em;
+  
+      @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  
