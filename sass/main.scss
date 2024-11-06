@@ -1,7 +1,20 @@
 // Imports
-@import 'variables';
-@import 'base/global';
-@import 'components/buttons';
-@import 'components/cards';
-@import 'layout/header';
-@import 'pages/home';
+
+/*variables*/
+@import './variables/body';
+@import './variables/home';
+
+/*base*/
+@import './base/colors';
+@import './base/mixins';
+
+/*components*/
+@import './components/buttons';
+@import './components/cards';
+@import './components/loader';
+
+/*layout*/
+@import './layout/header';
+
+/*pages*/
+@import './pages/home';

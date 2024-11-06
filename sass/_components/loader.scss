@@ -1,0 +1,22 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include full-size;
+    @include center-content;
+    background-color: $loader-background;
+    z-index: 1000;
+    opacity: 1;
+    animation: hideLoader 6s ease-in-out forwards;
+  
+    .loader__container {
+      @include full-size;
+      @include center-content;
+    }
+  
+    .loader__styled {
+      @include full-size;
+      background-color: $secondary-color;
+      animation: loader__styled 6s ease-in-out both, rotate-center 6s ease-in-out both;
+    }
+  }
